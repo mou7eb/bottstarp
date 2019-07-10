@@ -1,0 +1,67 @@
+.partie1{
+background-color: red;
+text-align: center;
+height: 80px;
+}
+.p1{
+    font-family: inherit;
+    margin-left:auto;
+    margin-right: auto; 
+   font-size:25px;
+}
+ 
+.partie2{
+       display: flex;
+       background-color: green;
+       font-size: 19px;
+       font-family: inherit;
+     
+   
+}
+  
+  
+
+    .p2{
+        text-align: center;
+    }
+ 
+    .bleu{
+        background-color: blue;
+        height: 600px;
+    }
+    .red{
+        background-color: red;
+        height: 600px;
+    }
+    .yellow{
+        background-color: yellow;
+        height: 600px;
+    }
+    .red1{
+        background-color: red;
+        height: 220px;
+        width: 240px;
+        margin-top: 15px;
+    }
+    .red2{
+        background-color: red ;
+        height: 220px;
+        width: 240px;
+        margin-top: 15px;
+       
+    }
+    @media only screen and (max-width: 767px) {
+        .bleu{
+            display: flex;
+          
+
+        }
+     }
+     .red1{
+         margin-right: 10px;
+         margin-left: 10px;
+         margin-top: 50px;
+     }
+     .red2{
+         margin-top:50px;
+     }
